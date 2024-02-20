@@ -48,7 +48,7 @@ public class NoteAssignment {
             } else {
 
                 System.out.println("Zero: " + userInput);
-        
+
             }
             if (userInput > 1000000) {
 
@@ -60,6 +60,7 @@ public class NoteAssignment {
 
             }
             done = false;
+            System.out.println(" ");
         }
         while (done == false);
 
