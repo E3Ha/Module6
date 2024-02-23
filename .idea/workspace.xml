@@ -2,10 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1349e772-1803-4f84-b596-24ef98e6f814" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Practice1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Practice2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Practice3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Practice4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Practice5.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Practice3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Practice3.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,7 +38,7 @@
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.Practice2">
+  <component name="RunManager" selected="Application.Practice4">
     <configuration name="NoteAssignment" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="NoteAssignment" />
       <module name="Module6" />
@@ -60,8 +60,24 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Practice3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Practice3" />
+      <module name="Module6" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Practice4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Practice4" />
+      <module name="Module6" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Practice4" />
+        <item itemvalue="Application.Practice3" />
         <item itemvalue="Application.Practice2" />
         <item itemvalue="Application.Practice1" />
         <item itemvalue="Application.NoteAssignment" />
@@ -91,12 +107,20 @@
       <option name="project" value="LOCAL" />
       <updated>1708455405239</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="2/21/2024 2:04">
+      <created>1708542297672</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1708542297672</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="2/20/2024 1:54" />
     <MESSAGE value="2/20/2024 1:56" />
-    <option name="LAST_COMMIT_MESSAGE" value="2/20/2024 1:56" />
+    <MESSAGE value="2/21/2024 2:04" />
+    <option name="LAST_COMMIT_MESSAGE" value="2/21/2024 2:04" />
   </component>
 </project>

@@ -6,25 +6,33 @@ public class Practice3 {
 
         Scanner scan = new Scanner(System.in);
         boolean done = false;
-        String trash = "";
         String userInput = "";
+        double number = 0;
 
 
 
         do {
             System.out.println("Letter: ");
 
-            if (scan.hasNextDouble() || scan.hasNextInt()) {
-                trash = scan.nextLine();
-                System.out.println("Incorrect Input: " + trash);
+            if (scan.hasNextDouble()){
+
+                number = scan.nextDouble();
+                System.out.println("You gave me a number, give me a letter: ");
+                scan.nextLine();
+
             }
             else {
-                userInput = scan.next();
+                userInput = scan.nextLine();
 
-                switch (userInput) {
+                if (userInput.length() == 1){
 
-                    case "a":
+                    done = true;
 
+                }
+                else {
+
+                    System.out.println("Need a single letter. ");
+                    scan.nextLine();
 
                 }
             }
@@ -32,5 +40,24 @@ public class Practice3 {
 
         }
         while (done == false);
+
+        userInput = userInput.toLowerCase();
+
+
+        switch(userInput){
+
+            case "a":
+            case "e":
+            case "i":
+            case "o":
+            case "u":
+                System.out.println("Vowel");
+                break;
+            default:
+                System.out.println("Consonant");
+                break;
+        }
+
+
     }
 }
