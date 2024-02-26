@@ -24,20 +24,32 @@ public class Practice5 {
                     System.out.println("Integer: ");
 
                     if (scan.hasNextInt()) {
-                        userInput2 = scan.nextInt();
-                     }
-                    else {
-                        trash = scan.nextLine();
-                        System.out.println("Incorrect Input: " + trash);
+                        userInput3 = scan.nextInt();
+                        done = true;
                     }
                 }
+            }
             else {
                 trash = scan.nextLine();
                 System.out.println("Incorrect Input: " + trash);
             }
+            System.out.println(" ");
         }
-
         while (done == false);
+
+
+        if (userInput1 > userInput2 && userInput1 > userInput3){
+            System.out.println(userInput1 + " is the greatest.");
+        }
+        else if (userInput2 > userInput1 && userInput2 > userInput3) {
+            System.out.println(userInput2 + " is the greatest.");
+        }
+        else if (userInput3 > userInput1 && userInput3 > userInput2) {
+            System.out.println(userInput3 + " is the greatest.");
+        }
+        else {
+            System.out.println("All values are equal.");
+        }
 
 
     }
