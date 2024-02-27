@@ -15,13 +15,23 @@ public class LabTask3 {
 
             System.out.println("Party Affiliation: ");
 
-            //Need to collect input
+            //Collect input
+            if (scan.hasNextDouble()) {
+                trash = scan.nextLine();
+                System.out.println("Incorrect Input: " + trash + ". Try Again.");
+            }
+            else {
+                pAffiliation = scan.nextLine();
+                done = true;
+            }
 
         }
         while (done == false);
 
+        //change to lower case
         pAffiliation = pAffiliation.toLowerCase();
 
+        //determine affiliation & output
         switch(pAffiliation){
 
             case "democrat":
