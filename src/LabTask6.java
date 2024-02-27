@@ -25,6 +25,7 @@ public class LabTask6 {
                     done = true;
                 }
             }
+            //if input is not an integer
             else {
                 trash = scan.nextLine();
                 System.out.println("Incorrect Input: " + trash + ". Try Again.");
@@ -33,6 +34,7 @@ public class LabTask6 {
         }
         while (done == false);
 
+        //determine greater than/less than/equal to
         if (userInput1 > userInput2){
             System.out.println(userInput1 + " > " + userInput2);
 

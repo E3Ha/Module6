@@ -34,6 +34,7 @@ public class LabTask5 {
                     }
                 }
             }
+            //if input is not a double
             else {
                 trash = scan.nextLine();
                 System.out.println("Incorrect Input: " + trash + ". Try Again.");
@@ -41,7 +42,7 @@ public class LabTask5 {
             System.out.println("");
         }
         while (done == false);
-        //calculate area * total cost
+        //calculate area & total cost
         area = height * width;
         totalCost = area * cPerSqrFt;
         //output to user

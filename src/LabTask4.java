@@ -13,19 +13,21 @@ public class LabTask4 {
 
 
         do {
-
+            //initial prompt
             System.out.println("Enter: ");
-
+            //determine if an integer
             if (scan.hasNextInt()) {
                 intUserInput = scan.nextInt();
                 System.out.println(intUserInput + " = integer");
 
             }
+            //determine if a double
             else if (scan.hasNextDouble()){
                 doubleUserInput = scan.nextDouble();
                 System.out.println(doubleUserInput + " = double");
 
             }
+            //anything else is a string
             else {
                 strUserInput = scan.nextLine();
                 System.out.println(strUserInput + " = string");
